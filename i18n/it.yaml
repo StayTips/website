@@ -1,0 +1,40 @@
+about:
+  other: Informazioni
+allRightReserved:
+  other: "Tutti i diritti riservati"
+contact:
+  other: contatti
+contactMessageError:
+  other: "Il tuo messaggio non è stato inviato correttamente"
+contactMessageSuccess:
+  other: "Il tuo messaggio è stato inviato correttamente"
+content:
+  other: contenuto
+copyright:
+  other: "Copyright"
+days:
+  other: "Giorni"
+emailAddress:
+  other: "Indirizzo Email"
+home:
+  other: home
+hours:
+  other: "Ore"
+minutes:
+  other: "Minuti"
+seconds:
+  other: "Secondi"
+sendMe:
+  other: "Inviami"
+service:
+  other: servizio
+sliderImage:
+  other: "Immagine slider"
+subscribe:
+  other: "Iscriviti"
+yourEmailAddressHere:
+  other: "Il tuo indirizzo email qui"
+yourMessage:
+  other: "Il tuo messaggio"
+yourName:
+  other: "Il tuo nome"
