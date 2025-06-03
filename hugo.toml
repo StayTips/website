@@ -118,3 +118,7 @@ subtitle = "leave your email and join our invitation queue to be the first to kn
 enable = false
 title = "Get In Touch"
 subtitle = "Lorem ipsu dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
