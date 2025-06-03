@@ -1,4 +1,4 @@
-baseURL = "https://stay.tips/infinity/site/"
+baseURL = "https://staytips.github.io/website/"
 languageCode = "it-it"
 title = "Stay Tips | The future of short term hospitality"
 theme = "infinity-hugo"
