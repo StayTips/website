@@ -29,7 +29,7 @@ countdownDay = "30"
 [params.about]
 enable = true
 heading = "Vuoi offrire ai tuoi ospiti un'esperienza 5 stelle guadagnandoci? Vuoi accogliere i viaggiatori senza il pensiero di quanto lasceranno in bolletta?"
-description = "In Stay Tips stiamo costruendo la soluzione del **futuro** che ti permette di offrire ai tuoi ospiti servizi selezionati, rispondere ai loro bisogni senza rispondere ai loro messaggi e risparmiare tempoo e risorse aumentando la loro soddisfazione. Non ci credi? **se non raggiungiamo i risultati promessi ti rimborsiamo il 100% del tuo investimento**"
+description = "In Stay Tips stiamo costruendo la soluzione del **futuro** che ti permette di offrire ai tuoi ospiti servizi selezionati, rispondere ai loro bisogni senza rispondere ai loro messaggi e risparmiare tempo e risorse aumentando la loro soddisfazione. Non ci credi? **se non raggiungiamo i risultati promessi ti rimborsiamo il 100% del tuo investimento**"
 
 [[params.about.sliderItem]]
 image = "images/about/1.jpg"
