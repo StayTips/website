@@ -1,0 +1,120 @@
+
+# HTML before the closing </head>
+[params]
+customHead = ""
+
+# Navigation
+[params.navigation]
+logo = "images/logo.png"
+home = "Home"
+about = "About"
+service = "Features"
+contact = "Contact"
+
+# Hero Area
+[params.hero]
+enable = true
+bg = "images/header-bg.jpg"
+title = "Unleash the future of hospitality"
+subtitle = "enter the new world of hospitality were technology meets comfort with human touch"
+btnText = "Get Started"
+
+# counter
+disableCountdown = false
+countdownYear = "2025"
+countdownMonth = "09"
+countdownDay = "30"
+
+# About Section
+[params.about]
+enable = true
+heading = "Vuoi offrire ai tuoi ospiti un'esperienza 5 stelle guadagnandoci? Vuoi accogliere i viaggiatori senza il pensiero di quanto lasceranno in bolletta?"
+description = "In Stay Tips stiamo costruendo la soluzione del **futuro** che ti permette di offrire ai tuoi ospiti servizi selezionati, rispondere ai loro bisogni senza rispondere ai loro messaggi e risparmiare tempoo e risorse aumentando la loro soddisfazione. Non ci credi? **se non raggiungiamo i risultati promessi ti rimborsiamo il 100% del tuo investimento**"
+
+[[params.about.sliderItem]]
+image = "images/about/1.jpg"
+[[params.about.sliderItem]]
+image = "images/about/2.jpg"
+[[params.about.sliderItem]]
+image = "images/about/3.jpg"
+[[params.about.sliderItem]]
+image = "images/about/2.jpg"
+
+
+# Service Section
+[params.service]
+enable = true
+title = "Riprendi il controllo della tua attività"
+subtitle = "La nostra soluzione deriva da anni di esperienza nell'ospitalità e nel turismo, combinata con una visione chiare del futuro."
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon = "tf-ion-social-bitcoin-outline"
+title = "Pagamenti automatici"
+description = "Con Camino i pagamenti sono automatici e garantiti, senza rischi di insolvenza o ritardi."
+delay = "0s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon = "tf-profile-male"
+title = "Persone, non sigle"
+description = "Ti diciamo con chi stai parlando e ti aiutiamo a rispondere alle domande consapevole della loro cultura."
+delay = "0.2s"
+
+[[params.service.serviceItem]]
+icon = " tf-genius"
+title = "AI e automazione"
+description = "L'intelligenza artificiale aiuta a comunicare, anche sui social e ad interfacciarti coi sistemi complessi"
+delay = "0.4s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon = "tf-map-pin"
+title = "Geofence technology"
+description = "usando la posizione degli ospiti possiamo attivare e disattivare servizi e interazioni specifiche"
+delay = "0.6s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon = "tf-ion-network"
+title = "Network di fornitori"
+description = "Selezionato i migliori fornitori di servizi per gli ospiti, per garantire costantemente un'esperienza di alta qualità"
+delay = "0.8s"
+
+[[params.service.serviceItem]]
+icon = "tf-shield2"
+title = "Privacy by design"
+description = "I dati sensibili sono protetti e condivisi solo dove serve, per garantire la sicurezza degli ospiti e la tua"
+delay = "1s"
+
+[[params.service.serviceItem]]
+icon = "tf-anchor2"
+title = "Tons of Feature"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay = "1.2s"
+
+[[params.service.serviceItem]]
+icon = "tf-attachment"
+title = "Integrato coi servizi esterni"
+description = "Integriamo i servizi esterni per recuperare dati e informazioni da proporre a te o ai tuoi ospiti (es. PMS)"
+delay = "1.5s"
+
+
+# Call to Action Section
+[params.cta]
+enable = true
+bg = "images/call-to-action.jpg"
+title = "Join the future of hospitality"
+subtitle = "leave your email and join our invitation queue to be the first to know when we launch"
+
+[params.contact]
+enable = false
+title = "Get In Touch"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"

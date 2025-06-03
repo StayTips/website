@@ -1,0 +1,5 @@
+baseURL = "https://stay.tips/infinity/site/"
+languageCode = "it-it"
+title = "Stay Tips | The future of short term hospitality"
+theme = "infinity-hugo"
+removePathAccents = true
