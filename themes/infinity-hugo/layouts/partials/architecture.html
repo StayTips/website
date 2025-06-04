@@ -1,0 +1,57 @@
+{{ if .Site.Params.architecture.enable }}
+{{"<!-- Architecture Section -->" | safeHTML}}
+<section id="{{ i18n " architecture" | urlize }}" class="section architecture">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="block">
+                    <div class="heading wow fadeInUp">
+                        {{ with .Site.Params.architecture.title }}
+                        <h2>{{ . }}</h2>
+                        {{ end }}
+                        {{ with .Site.Params.architecture.subtitle }}
+                        <p>{{ . }}</p>
+                        {{ end }}
+                    </div>
+
+                    {{/* <div class="heading wow fadeInUp">
+                        {{ with .Site.Params.architecture.title }}
+                        <div class="section-title-border border-center"></div>
+                        <h4 class="section-title-sm">{{ .Site.Params.architecture.subtitle | markdownify }}</h4>
+                        <h2 class="section-title">{{ . | markdownify }}</h2>
+                        {{ end }}
+                    </div> */}}
+                </div>
+            </div>
+        </div>
+
+        <!-- Immagine centrale -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-10 text-center">
+                {{ with .Site.Params.architecture }}
+                {{ if .image }}
+
+                <div class="architecture-image-wrapper mb-5">
+                    <!-- Carica immagine da assets/ -->
+                    {{ $imageResource := resources.Get .image }}
+                    {{ if $imageResource }}
+                    <img loading="lazy" class="img-fluid box-shadow rounded"
+                        src="{{ .image_webp | default .image | absURL }}"
+                        onerror="this.onerror=null;this.src='{{ .image | absURL }}'"
+                        alt="{{ .Site.Params.architecture.title }}">
+                </div>
+                    {{ end }}
+                {{ end }}
+
+                <!-- Contenuto aggiuntivo opzionale -->
+                {{ with .content }}
+                <div class="architecture-content">
+                    <p class="text-muted">{{ . | markdownify }}</p>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

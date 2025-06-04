@@ -1,7 +1,7 @@
 
 # HTML before the closing </head>
 [params]
-customHead = '<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1e20d180b2c76101a22013f11/5d1b71dc61c806d4510d502d5.js");</script>'
+customHead = ""
 
 # Navigation
 [params.navigation]
@@ -84,21 +84,27 @@ delay = "0.8s"
 
 [[params.service.serviceItem]]
 icon = "tf-shield2"
-title = "Privacy garantita"
-description = "I dati sensibili sono protetti e condivisi solo dove serve, per garantire la sicurezza degli ospiti e la tua"
+title = "Burocrazia e privacy"
+description = "I dati sensibili sono protetti e condivisi solo con i servizi della pubblica amministrazione, per garantire la sicurezza degli ospiti e la tua compliance"
 delay = "1s"
 
 [[params.service.serviceItem]]
 icon = "tf-ion-social-euro-outline"
-title = "Contabilità e trasparenza"
-description = "tenere i conti in ordine è fondamentale, la nostra soluzione lo fa in automatico"
+title = "Contabilità"
+description = "tenere i conti in ordine è fondamentale, la nostra soluzione lo fa in automatico e produce già gli output per il commercialista"
 delay = "1.2s"
 
 [[params.service.serviceItem]]
-icon = "tf-attachment"
-title = "Integrato col mondo"
-description = "Integriamo servizi esterni per informazioni tue o dei tuoi ospiti (es. PMS)"
+icon = "tf-wallet"
+title = "Integrato col wallet digitale"
+description = "La nuova frontiera dei documenti è rappresentata dal wallet digitale, noi siamo pronti"
 delay = "1.5s"
+
+# [[params.service.serviceItem]]
+# icon = "tf-ion-paintbucket"
+# title = "White Label"
+# description = "Per utenti enterprise offriamo la possibilità di avere un'app personalizzata con il tuo logo e colori"
+# delay = "1.8s"
 
 
 # Call to Action Section
@@ -109,11 +115,19 @@ title = "Entra nel futuro dell'ospitalità"
 subtitle = "Lascia i tuoi dati per essere tra i primi a scoprire come Stay Tips può rivoluzionare la tua attività"
 
 
+[params.architecture]
+enable = true
+title = "Come è fatta la soluzione"
+subtitle = "3 app che comunicano tra loro coordinate da una intelligenza artificiale che si appoggia alla blockchain"
+image = "images/architecture.png"
+image_webp = "images/architecture.webp"
+content = "Ogni applicazione può essere utilizzata su mobile o desktop ed è dedicata ad un utente specifico: l'ospite, il proprietario e il fornitore di servizi. L'intelligenza artificiale semplifica le interazioni con le app, garantendo un'esperienza fluida e personalizzata per tutti gli utenti."
+
 [params.contact]
 enable = false
 title = "Get In Touch"
 subtitle = "Lorem ipsu dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+# [caches]
+#   [caches.images]
+#     dir = ':cacheDir/images'
