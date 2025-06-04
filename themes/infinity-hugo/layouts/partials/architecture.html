@@ -30,25 +30,37 @@
             <div class="col-lg-10 col-md-10 text-center">
                 {{ with .Site.Params.architecture }}
                 {{ if .image }}
-
                 <div class="architecture-image-wrapper mb-5">
-                    <!-- Carica immagine da assets/ -->
+
+                    <!-- Carica immagine da assets/ con fallback robusto -->
                     {{ $imageResource := resources.Get .image }}
                     {{ if $imageResource }}
-                    <img loading="lazy" class="img-fluid box-shadow rounded"
-                        src="{{ .image_webp | default .image | absURL }}"
-                        onerror="this.onerror=null;this.src='{{ .image | absURL }}'"
-                        alt="{{ .Site.Params.architecture.title }}">
-                </div>
+                    <!-- Processo l'immagine per garantire che sia inclusa nel build -->
+                    {{ $processedImage := $imageResource.Resize "1200x" }}
+                    <img loading="lazy" class="img-fluid box-shadow rounded" src="{{ $processedImage.RelPermalink }}"
+                        alt="{{ .title | default " Architecture" }}" style="max-height: 500px; width: auto;">
+                    {{ else }}
+                    <!-- Debug per produzione -->
+                    <div class="alert alert-warning">
+                        <p>⚠️ Immagine non trovata: {{ .image }}</p>
+                        <small>
+                            Ambiente: {{ hugo.Environment }}<br>
+                            Base URL: {{ .Site.BaseURL }}<br>
+                            Verifica che il file esista in: assets/{{ .image }}
+                        </small>
+                    </div>
                     {{ end }}
+
+                </div>
+                {{ end }}
                 {{ end }}
 
                 <!-- Contenuto aggiuntivo opzionale -->
-                {{ with .content }}
-                <div class="architecture-content">
+
+                {{ with .Site.Params.architecture.content }}
+                <div class="architecture-content mt-4">
                     <p class="text-muted">{{ . | markdownify }}</p>
                 </div>
-                {{ end }}
                 {{ end }}
             </div>
         </div>
