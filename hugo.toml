@@ -17,7 +17,7 @@ enable = true
 bg = "images/header-bg.jpg"
 title = "Libera il potenziale della tua ospitalità"
 subtitle = "Trasforma i soggiorni turistici in esperienze a 5 stelle con la nostra soluzione di personal concierge. Automatizza le operazioni, aumenta i ricavi e delizia gli ospiti con la sicurezza della blockchain."
-btnText = "Entra in lista d'attesa"
+btnText = "Entra in lista d'attesa!"
 
 # counter
 disableCountdown = false
