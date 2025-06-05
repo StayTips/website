@@ -1,0 +1,4 @@
+stay.tips {
+  root * /usr/share/caddy
+  file_server
+}
