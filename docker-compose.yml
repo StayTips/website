@@ -6,7 +6,7 @@ services:
       - 443:443
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
-      - /mnt/volume-main/public:/usr/share/caddy
+      - ./public:/usr/share/caddy
       - caddy_data:/data
 
 volumes:
