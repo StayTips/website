@@ -15,8 +15,8 @@ contact = "Contatti"
 [params.hero]
 enable = true
 bg = "images/header-bg.jpg"
-title = "Libera il potenziale della tua ospitalità"
-subtitle = "Trasforma i soggiorni turistici in esperienze a 5 stelle con la nostra soluzione di personal concierge. Automatizza le operazioni, aumenta i ricavi e delizia gli ospiti con la sicurezza della blockchain."
+title = "Libera il tuo genio dell'ospitalità"
+subtitle = "Trasforma i soggiorni turistici in esperienze a 5 stelle con la nostra soluzione di personal concierge.Automatizza le operazioni, aumenta i ricavi e delizia gli ospiti con la sicurezza della blockchain."
 btnText = "Entra in lista d'attesa!"
 
 # counter
@@ -29,7 +29,7 @@ countdownDay = "30"
 [params.about]
 enable = true
 heading = "Vuoi offrire ai tuoi ospiti un'esperienza 5 stelle guadagnandoci? Vuoi accogliere i viaggiatori senza il pensiero di quanto lasceranno in bolletta?"
-description = "In Stay Tips stiamo costruendo la soluzione del futuro che ti permette di offrire ai tuoi ospiti servizi selezionati, rispondere ai loro bisogni senza rispondere ai loro messaggi e risparmiare tempo e risorse aumentando la loro soddisfazione. Non ci credi? se non raggiungiamo i risultati promessi ti rimborsiamo il 100% del tuo investimento"
+description = "In Stay Tips stiamo costruendo la soluzione del futuro che ti permette di offrire ai tuoi ospiti servizi selezionati, rispondere ai loro bisogni senza rispondere ai loro messaggi e risparmiare tempo e risorse aumentando la loro soddisfazione. Non ci credi? ti rimborsiamo il 100% dell'investimento."
 
 [[params.about.sliderItem]]
 image = "images/about/1.jpg"
@@ -61,7 +61,7 @@ delay = "0.2s"
 [[params.service.serviceItem]]
 icon = " tf-genius"
 title = "AI e automazione"
-description = "L'intelligenza artificiale aiuta a comunicare, anche sui social e ad interfacciarti coi sistemi complessi"
+description = "L'intelligenza artificiale aiuta a comunicare, anche sui social e ad interfacciarti coi sistemi complessi."
 delay = "0.4s"
 
 [[params.service.serviceItem]]
@@ -70,7 +70,7 @@ delay = "0.4s"
 # use delay for reveal items one by one
 icon = "tf-map-pin"
 title = "Tecnologia di prossimità"
-description = "usando la posizione degli ospiti possiamo attivare e disattivare servizi e interazioni specifiche"
+description = "usando la posizione degli ospiti possiamo attivare e disattivare servizi e interazioni specifiche."
 delay = "0.6s"
 
 [[params.service.serviceItem]]
@@ -79,25 +79,25 @@ delay = "0.6s"
 # use delay for reveal items one by one
 icon = "tf-ion-network"
 title = "Rete di fornitori"
-description = "Selezionato i migliori fornitori di servizi per gli ospiti, per garantire costantemente un'esperienza di alta qualità"
+description = "Selezionato i migliori fornitori di servizi per gli ospiti, per garantire costantemente un'esperienza di alta qualità."
 delay = "0.8s"
 
 [[params.service.serviceItem]]
 icon = "tf-shield2"
 title = "Burocrazia e privacy"
-description = "I dati sensibili sono protetti e condivisi solo con i servizi della pubblica amministrazione, per garantire la sicurezza degli ospiti e la tua compliance"
+description = "I dati sensibili sono protetti e condivisi solo con i servizi della pubblica amministrazione, per garantire la sicurezza degli ospiti e la tua compliance."
 delay = "1s"
 
 [[params.service.serviceItem]]
 icon = "tf-ion-social-euro-outline"
 title = "Contabilità"
-description = "tenere i conti in ordine è fondamentale, la nostra soluzione lo fa in automatico e produce già gli output per il commercialista"
+description = "tenere i conti in ordine è fondamentale, la nostra soluzione lo fa in automatico e produce già gli output per il commercialista."
 delay = "1.2s"
 
 [[params.service.serviceItem]]
 icon = "tf-wallet"
-title = "Integrato col wallet digitale"
-description = "La nuova frontiera dei documenti è rappresentata dal wallet digitale, noi siamo pronti"
+title = "Integrato con ID wallet"
+description = "La nuova frontiera dei documenti personali è il wallet digitale, noi siamo pronti."
 delay = "1.5s"
 
 # [[params.service.serviceItem]]
